@@ -1,0 +1,7 @@
+{
+  "type": "ttp-veris-vectors",
+  "name": "TTP - Vectors",
+  "description": "TTP Vectors is a way to represent the various vectors associated with an attack from teh veris framework",
+  "version": 1,
+  "uuid": "586d31ac-6fab-4efd-91df-edeb0e3daaaf"
+}

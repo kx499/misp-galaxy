@@ -1,0 +1,521 @@
+{
+  "values": [
+    {
+      "value": "Error:Capacity shortage",
+      "description": "Poor capacity planning; "
+    },
+    {
+      "value": "Error:Classification error",
+      "description": "Classification or labeling error; "
+    },
+    {
+      "value": "Error:Data entry error",
+      "description": "Data entry error; "
+    },
+    {
+      "value": "Error:Disposal error",
+      "description": "Disposal error; "
+    },
+    {
+      "value": "Error:Gaffe",
+      "description": "Gaffe (social or verbal slip); "
+    },
+    {
+      "value": "Error:Loss",
+      "description": "Loss or misplacement; "
+    },
+    {
+      "value": "Error:Maintenance error",
+      "description": "Maintenance error; "
+    },
+    {
+      "value": "Error:Malfunction",
+      "description": "Technical malfunction or glitch; "
+    },
+    {
+      "value": "Error:Misconfiguration",
+      "description": "Misconfiguration; "
+    },
+    {
+      "value": "Error:Misdelivery",
+      "description": "Misdelivery (send wrong info or to wrong recipient); "
+    },
+    {
+      "value": "Error:Misinformation",
+      "description": "Misinformation (unintentionally giving false info); "
+    },
+    {
+      "value": "Error:Omission",
+      "description": "Omission (something intended, but not done); "
+    },
+    {
+      "value": "Error:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Error:Physical accidents",
+      "description": "Physical accidents (e.g., drops, bumps, spills); "
+    },
+    {
+      "value": "Error:Programming error",
+      "description": "Programming error (flaws or bugs in custom code); "
+    },
+    {
+      "value": "Error:Publishing error",
+      "description": "Publishing error (private info to public doc or site); "
+    },
+    {
+      "value": "Hacking:Abuse of functionality",
+      "description": "Abuse of functionality; "
+    },
+    {
+      "value": "Hacking:Brute force",
+      "description": "Brute force or password guessing attacks; "
+    },
+    {
+      "value": "Hacking:Buffer overflow",
+      "description": "Buffer overflow; "
+    },
+    {
+      "value": "Hacking:CSRF",
+      "description": "Cross-site request forgery; "
+    },
+    {
+      "value": "Hacking:Cache poisoning",
+      "description": "Cache poisoning; "
+    },
+    {
+      "value": "Hacking:Cryptanalysis",
+      "description": "Cryptanalysis; "
+    },
+    {
+      "value": "Hacking:DoS",
+      "description": "Denial of service; "
+    },
+    {
+      "value": "Hacking:Footprinting",
+      "description": "Footprinting and fingerprinting; "
+    },
+    {
+      "value": "Hacking:Forced browsing",
+      "description": "Forced browsing or predictable resource location; "
+    },
+    {
+      "value": "Hacking:Format string attack",
+      "description": "Format string attack; "
+    },
+    {
+      "value": "Hacking:Fuzz testing",
+      "description": "Fuzz testing; "
+    },
+    {
+      "value": "Hacking:HTTP Response Splitting",
+      "description": "HTTP Response Splitting; "
+    },
+    {
+      "value": "Hacking:HTTP request smuggling",
+      "description": "HTTP request smuggling; "
+    },
+    {
+      "value": "Hacking:HTTP request splitting",
+      "description": "HTTP request splitting; "
+    },
+    {
+      "value": "Hacking:HTTP response smuggling",
+      "description": "HTTP response smuggling; "
+    },
+    {
+      "value": "Hacking:Integer overflows",
+      "description": "Integer overflows; "
+    },
+    {
+      "value": "Hacking:LDAP injection",
+      "description": "LDAP injection; "
+    },
+    {
+      "value": "Hacking:Mail command injection",
+      "description": "Mail command injection; "
+    },
+    {
+      "value": "Hacking:MitM",
+      "description": "Man-in-the-middle attack; "
+    },
+    {
+      "value": "Hacking:Null byte injection",
+      "description": "Null byte injection; "
+    },
+    {
+      "value": "Hacking:OS commanding",
+      "description": "OS commanding; "
+    },
+    {
+      "value": "Hacking:Offline cracking",
+      "description": "Offline password or key cracking (e.g., rainbow tables, Hashcat, JtR); "
+    },
+    {
+      "value": "Hacking:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Hacking:Path traversal",
+      "description": "Path traversal; "
+    },
+    {
+      "value": "Hacking:Pass-the-hash",
+      "description": "Pass-the-hash; "
+    },
+    {
+      "value": "Hacking:RFI",
+      "description": "Remote file inclusion; "
+    },
+    {
+      "value": "Hacking:Reverse engineering",
+      "description": "Reverse engineering; "
+    },
+    {
+      "value": "Hacking:Routing detour",
+      "description": "Routing detour; "
+    },
+    {
+      "value": "Hacking:SQLi",
+      "description": "SQL injection; "
+    },
+    {
+      "value": "Hacking:SSI injection",
+      "description": "SSI injection; "
+    },
+    {
+      "value": "Hacking:Session fixation",
+      "description": "Session fixation; "
+    },
+    {
+      "value": "Hacking:Session prediction",
+      "description": "Credential or session prediction; "
+    },
+    {
+      "value": "Hacking:Session replay",
+      "description": "Session replay; "
+    },
+    {
+      "value": "Hacking:Soap array abuse",
+      "description": "Soap array abuse; "
+    },
+    {
+      "value": "Hacking:Special element injection",
+      "description": "Special element injection; "
+    },
+    {
+      "value": "Hacking:URL redirector abuse",
+      "description": "URL redirector abuse; "
+    },
+    {
+      "value": "Hacking:Use of backdoor or C2",
+      "description": "Use of Backdoor or C2 channel; "
+    },
+    {
+      "value": "Hacking:Use of stolen creds",
+      "description": "Use of stolen authentication credentials; "
+    },
+    {
+      "value": "Hacking:Virtual machine escape",
+      "description": "Virtual machine escape; "
+    },
+    {
+      "value": "Hacking:XML attribute blowup",
+      "description": "XML attribute blowup; "
+    },
+    {
+      "value": "Hacking:XML entity expansion",
+      "description": "XML entity expansion; "
+    },
+    {
+      "value": "Hacking:XML external entities",
+      "description": "XML external entities; "
+    },
+    {
+      "value": "Hacking:XML injection",
+      "description": "XML injection; "
+    },
+    {
+      "value": "Hacking:XPath injection",
+      "description": "XPath injection; "
+    },
+    {
+      "value": "Hacking:XQuery injection",
+      "description": "XQuery injection; "
+    },
+    {
+      "value": "Hacking:XSS",
+      "description": "Cross-site scriptin; "
+    },
+    {
+      "value": "Malware_Func.:Adminware",
+      "description": "System or network utilities (e.g., PsTools, Netcat); "
+    },
+    {
+      "value": "Malware_Func.:Adware",
+      "description": "Adware; "
+    },
+    {
+      "value": "Malware_Func.:Backdoor",
+      "description": "Backdoor (enable remote access); "
+    },
+    {
+      "value": "Malware_Func.:Brute force",
+      "description": "Brute force attack; "
+    },
+    {
+      "value": "Malware_Func.:C2",
+      "description": "Command and control (C2); "
+    },
+    {
+      "value": "Malware_Func.:Capture app data",
+      "description": "Capture data from application or system process; "
+    },
+    {
+      "value": "Malware_Func.:Capture stored data",
+      "description": "Capture data stored on system disk; "
+    },
+    {
+      "value": "Malware_Func.:Click fraud",
+      "description": "Click fraud or Bitcoin mining; "
+    },
+    {
+      "value": "Malware_Func.:Client-side attack",
+      "description": "Client-side or browser attack (e.g., redirection, XSS, MitB); "
+    },
+    {
+      "value": "Malware_Func.:Destroy data",
+      "description": "Destroy or corrupt stored data; "
+    },
+    {
+      "value": "Malware_Func.:Disable controls",
+      "description": "Disable or interfere with security controls; "
+    },
+    {
+      "value": "Malware_Func.:DoS",
+      "description": "DoS attack; "
+    },
+    {
+      "value": "Malware_Func.:Downloader",
+      "description": "Downloader (pull updates or other malware); "
+    },
+    {
+      "value": "Malware_Func.:Office Macro",
+      "description": "\"Downloader (pull updates or other malware) \"; "
+    },
+    {
+      "value": "Malware_Func.:Embedded Script",
+      "description": "\"Downloader (pull updates or other malware) \"; "
+    },
+    {
+      "value": "Malware_Func.:Embedded dll/exe",
+      "description": "\"Downloader (pull updates or other malware) \"; "
+    },
+    {
+      "value": "Malware_Func.:WMI Abuse",
+      "description": "\"Downloader (pull updates or other malware) \"; "
+    },
+    {
+      "value": "Malware_Func.:Exploit vuln",
+      "description": "Exploit vulnerability in code (vs misconfig or weakness); "
+    },
+    {
+      "value": "Malware_Func.:Export data",
+      "description": "Export data to another site or system; "
+    },
+    {
+      "value": "Malware_Func.:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Malware_Func.:Packet sniffer",
+      "description": "Packet sniffer (capture data from network); "
+    },
+    {
+      "value": "Malware_Func.:Password dumper",
+      "description": "Password dumper (extract credential hashes); "
+    },
+    {
+      "value": "Malware_Func.:Ram scraper",
+      "description": "Ram scraper or memory parser (capture data from volatile memory); "
+    },
+    {
+      "value": "Malware_Func.:Ransomware",
+      "description": "Ransomware (encrypt or seize stored data); "
+    },
+    {
+      "value": "Malware_Func.:Rootkit",
+      "description": "Rootkit (maintain local privileges and stealth); "
+    },
+    {
+      "value": "Malware_Func.:SQL injection",
+      "description": "SQL injection attack; "
+    },
+    {
+      "value": "Malware_Func.:Scan network",
+      "description": "Scan or footprint network; "
+    },
+    {
+      "value": "Malware_Func.:Spam",
+      "description": "Send spam; "
+    },
+    {
+      "value": "Malware_Func.:Spyware/Keylogger",
+      "description": "Spyware, keylogger or form-grabber (capture user input or activity); "
+    },
+    {
+      "value": "Malware_Func.:Worm",
+      "description": "Worm (propagate to other systems or devices; "
+    },
+    {
+      "value": "Misuse:Data mishandling",
+      "description": "Handling of data in an unapproved manner; "
+    },
+    {
+      "value": "Misuse:Email misuse",
+      "description": "Inappropriate use of email or IM; "
+    },
+    {
+      "value": "Misuse:Illicit content",
+      "description": "Storage or distribution of illicit content; "
+    },
+    {
+      "value": "Misuse:Knowledge abuse",
+      "description": "Abuse of private or entrusted knowledge; "
+    },
+    {
+      "value": "Misuse:Net misuse",
+      "description": "Inappropriate use of network or Web access; "
+    },
+    {
+      "value": "Misuse:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Misuse:Possession abuse",
+      "description": "Abuse of physical access to asset; "
+    },
+    {
+      "value": "Misuse:Privilege abuse",
+      "description": "Abuse of system access privileges; "
+    },
+    {
+      "value": "Misuse:Unapproved hardware",
+      "description": "Use of unapproved hardware or devices; "
+    },
+    {
+      "value": "Misuse:Unapproved software",
+      "description": "Use of unapproved software or services; "
+    },
+    {
+      "value": "Misuse:Unapproved workaround",
+      "description": "Unapproved workaround or shortcut; "
+    },
+    {
+      "value": "Physical:Assault",
+      "description": "Assault (threats or acts of physical violence); "
+    },
+    {
+      "value": "Physical:Bypassed controls",
+      "description": "Bypassed physical barriers or controls; "
+    },
+    {
+      "value": "Physical:Disabled controls",
+      "description": "Disabled physical barriers or controls; "
+    },
+    {
+      "value": "Physical:Connection",
+      "description": "Connection; "
+    },
+    {
+      "value": "Physical:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Physical:Destruction",
+      "description": "Destruction (deliberate damaging or disabling); "
+    },
+    {
+      "value": "Physical:Skimmer",
+      "description": "Installing card skimming device; "
+    },
+    {
+      "value": "Physical:Snooping",
+      "description": "Snooping (sneak about to gain info or access); "
+    },
+    {
+      "value": "Physical:Surveillance",
+      "description": "Surveillance (monitoring and observation); "
+    },
+    {
+      "value": "Physical:Tampering",
+      "description": "Tampering (alter physical form or function); "
+    },
+    {
+      "value": "Physical:Theft",
+      "description": "Theft (taking assets without permission); "
+    },
+    {
+      "value": "Physical:Wiretapping",
+      "description": "Wiretapping (Physical tap to comms line; "
+    },
+    {
+      "value": "Social:Baiting",
+      "description": "Baiting (planting infected media); "
+    },
+    {
+      "value": "Social:Bribery",
+      "description": "Bribery or solicitation; "
+    },
+    {
+      "value": "Social:Elicitation",
+      "description": "Elicitation (subtle extraction of info through conversation); "
+    },
+    {
+      "value": "Social:Extortion",
+      "description": "Extortion or blackmail; "
+    },
+    {
+      "value": "Social:Forgery",
+      "description": "Forgery or counterfeiting (fake hardware, software, documents, etc); "
+    },
+    {
+      "value": "Social:Influence",
+      "description": "Influence tactics (Leveraging authority or obligation, framing, etc); "
+    },
+    {
+      "value": "Social:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Social:Phishing",
+      "description": "Phishing (or any type of *ishing); "
+    },
+    {
+      "value": "Social:Pretexting",
+      "description": "Pretexting (dialogue leveraging invented scenario); "
+    },
+    {
+      "value": "Social:Propaganda",
+      "description": "Propaganda or disinformation; "
+    },
+    {
+      "value": "Social:Scam",
+      "description": "Online scam or hoax (e.g., scareware, 419 scam, auction fraud); "
+    },
+    {
+      "value": "Social:Spam",
+      "description": "Spam (unsolicited or undesired email and advertisements); "
+    }
+  ],
+  "version": 1,
+  "uuid": "bf3a4514-a6a7-4c51-a097-56dbfe9b8960",
+  "description": "Attacker actions based on the veris framework",
+  "authors": [
+    "kx499"
+  ],
+  "source": "http://veriscommunity.net/enums.html",
+  "type": "ttp-veris-actions",
+  "name": "ttp-veris-actions"
+}

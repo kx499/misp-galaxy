@@ -1,0 +1,7 @@
+{
+  "type": "ttp-veris-targets",
+  "name": "TTP - Targets",
+  "description": "TTP Targets is a way to represent the targeted types of people and assets from the veris framework",
+  "version": 1,
+  "uuid": "5cf61a2f-ee90-4bf4-be3b-09eb0de0450b"
+}

@@ -1,0 +1,69 @@
+{
+  "values": [
+    {
+      "value": "ï»¿Targeting: Not Targeted",
+      "description": "Not targeted, e.g. spam or financially motivated malware.; "
+    },
+    {
+      "value": "Targeting: Targeted - Not Customized",
+      "description": "Targeted but not customized. Sent with a message that is obviously false with little to no validation required.; "
+    },
+    {
+      "value": "Targeting: Targeted - Poorly Customized",
+      "description": "Targeted and poorly customized. Content is generally relevant to the target. May look questionable.; "
+    },
+    {
+      "value": "Targeting: Targeted - Customized",
+      "description": "Targeted and customized. May use a real person/organization or content to convince the target the message is legitimate. Content is specifically relevant to the target and looks legitimate.; "
+    },
+    {
+      "value": "Targeting: Targeted - Well-Customized",
+      "description": "Targeted and well-customized. Uses a real person/organization and content to convince the target the message is legitimate. Probably directly addressing the recipient. Content is specifically relevant to the target, looks legitimate, and can be externally referenced (e.g. by a website). May be sent from a hacked account.; "
+    },
+    {
+      "value": "Targeting: Targeted - Highly-Customized",
+      "description": "Targeted and highly customized using sensitive data.  Individually targeted and customized, likely using inside/sensitive information that is directly relevant to the target.; "
+    },
+    {
+      "value": "Malware_Detection: Unknown Family - Custom Code",
+      "description": "The sample is either a new or unknown family and is not a known variant of an existing family.; "
+    },
+    {
+      "value": "Malware_Detection: Known Family - Commodity",
+      "description": "The sample is detected as and classified as a commodity family including financial malware, adware, etc. Examples are Pony, Dyre, Ursnif, Vawtrak.; "
+    },
+    {
+      "value": "Malware_Detection: Known Family - Targeted",
+      "description": "The sample is related a malware family used in another targeted attack ; "
+    },
+    {
+      "value": "Malware_Protections: No Code Protection ",
+      "description": "The sample contains no code protection such as packing, obfuscation (e.g. simple rotation of C2 names or other interesting strings), or anti-reversing tricks.; "
+    },
+    {
+      "value": "Malware_Protections: Simple Code Protection",
+      "description": "The sample contains a simple method of protection such as one of the following: code protection using publicly available tools where the reverse method is available, such as UPX packing; simple anti-reversing techniques such as not using import tables, or a call to IsDebuggerPresent(); self-disabling in the presence of AV software.; "
+    },
+    {
+      "value": "Malware_Protections: Multiple Minor Code Protections",
+      "description": "The sample contains multiple minor code protection techniques (anti-reversing tricks, packing, VM / reversing tools detection) that require some low-level knowledge. This level includes malware where code that contains the core functionality of the program is decrypted only in memory.; "
+    },
+    {
+      "value": "Malware_Protections: Single Advanced Code Protection",
+      "description": "The sample contains minor code protection techniques along with at least one advanced protection method such as rootkit functionality or a custom virtualized packer.; "
+    },
+    {
+      "value": "Malware_Protections: Multiple Advanced Code Protections",
+      "description": "The sample contains multiple advanced protection techniques, e.g. rootkit capability, virtualized packer, multiple anti-reversing techniques, and is clearly designed by a professional software engineering team.; "
+    }
+  ],
+  "version": 1,
+  "uuid": "08f7f9dc-fc47-4e75-8fbd-2d783462cfb6",
+  "description": "Attacker sophistication in targeting and malware delivered. Slightly modified version of Citizen Lab's Targeted Threat Index",
+  "authors": [
+    "kx499"
+  ],
+  "source": "https://citizenlab.org/2013/10/targeted-threat-index/",
+  "type": "ttp-sophistication",
+  "name": "ttp-sophistication"
+}

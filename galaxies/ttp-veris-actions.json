@@ -1,0 +1,7 @@
+{
+  "type": "ttp-veris-actions",
+  "name": "TTP - Attacker Actions",
+  "description": "TTP Attacker Actions is a way to represent attacker actions based on the veris framework",
+  "version": 1,
+  "uuid": "4918bf34-0d48-4cd2-8011-c5cdbbc359e7"
+}

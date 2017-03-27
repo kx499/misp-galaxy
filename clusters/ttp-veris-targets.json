@@ -1,0 +1,353 @@
+{
+  "values": [
+    {
+      "value": "ï»¿Media: Disk drive",
+      "description": "Media - Hard disk drive; "
+    },
+    {
+      "value": "Media: Disk media",
+      "description": "Media - Disk media (e.g., CDs, DVDs); "
+    },
+    {
+      "value": "Media: Documents",
+      "description": "Media - Documents; "
+    },
+    {
+      "value": "Media: Flash drive",
+      "description": "Media - Flash drive or card; "
+    },
+    {
+      "value": "Media: Other",
+      "description": "Media - Variety known but not listed; "
+    },
+    {
+      "value": "Media: Payment card",
+      "description": "Media - Payment card (e.g., magstripe, EMV); "
+    },
+    {
+      "value": "Media: Smart card",
+      "description": "Media - Identity smart card; "
+    },
+    {
+      "value": "Media: Tapes",
+      "description": "Media - Backup tapes; "
+    },
+    {
+      "value": "Network: Access reader",
+      "description": "Network - Access control reader (e.g., badge, biometric); "
+    },
+    {
+      "value": "Network: Broadband",
+      "description": "Network - Mobile broadband network; "
+    },
+    {
+      "value": "Network: Camera",
+      "description": "Network - Camera or surveillance system; "
+    },
+    {
+      "value": "Network: Firewall",
+      "description": "Network - Firewall; "
+    },
+    {
+      "value": "Network: HSM",
+      "description": "Network - Hardware security module (HSM); "
+    },
+    {
+      "value": "Network: IDS",
+      "description": "Network - IDS or IPs; "
+    },
+    {
+      "value": "Network: LAN",
+      "description": "Network - Wired LAN; "
+    },
+    {
+      "value": "Network: Other",
+      "description": "Network - Variety known but not listed; "
+    },
+    {
+      "value": "Network: PBX",
+      "description": "Network - Private branch exchange (PBX); "
+    },
+    {
+      "value": "Network: PLC",
+      "description": "Network - Programmable logic controller (PLC); "
+    },
+    {
+      "value": "Network: Private WAN",
+      "description": "Network - Private WAN; "
+    },
+    {
+      "value": "Network: Public WAN",
+      "description": "Network - Public WAN; "
+    },
+    {
+      "value": "Network: RTU",
+      "description": "Network - Remote terminal unit (RTU); "
+    },
+    {
+      "value": "Network: Router or switch",
+      "description": "Network - Router or switch; "
+    },
+    {
+      "value": "Network: SAN",
+      "description": "Network - Storage area network (SAN); "
+    },
+    {
+      "value": "Network: NAS",
+      "description": "Network - Network area storage (NAS); "
+    },
+    {
+      "value": "Network: Telephone",
+      "description": "Network - Telephone; "
+    },
+    {
+      "value": "Network: VoIP adapter",
+      "description": "Network - VoIP adapter; "
+    },
+    {
+      "value": "Network: WLAN",
+      "description": "Network - Wireless LAN; "
+    },
+    {
+      "value": "People: Auditor",
+      "description": "People - Auditor; "
+    },
+    {
+      "value": "People: Call center",
+      "description": "People - Call center; "
+    },
+    {
+      "value": "People: Cashier",
+      "description": "People - Cashier; "
+    },
+    {
+      "value": "People: Customer",
+      "description": "People - Customer; "
+    },
+    {
+      "value": "People: Developer",
+      "description": "People - Developer; "
+    },
+    {
+      "value": "People: End-user",
+      "description": "People - End-user; "
+    },
+    {
+      "value": "People: Executive",
+      "description": "People - Executive; "
+    },
+    {
+      "value": "People: Finance",
+      "description": "People - Finance; "
+    },
+    {
+      "value": "People: Former employee",
+      "description": "People - Former employee; "
+    },
+    {
+      "value": "People: Guard",
+      "description": "People - Guard; "
+    },
+    {
+      "value": "People: Helpdesk",
+      "description": "People - Helpdesk; "
+    },
+    {
+      "value": "People: Human resources",
+      "description": "People - Human resources; "
+    },
+    {
+      "value": "People: Maintenance",
+      "description": "People - Maintenance; "
+    },
+    {
+      "value": "People: Manager",
+      "description": "People - Manager; "
+    },
+    {
+      "value": "People: Other",
+      "description": "People - Variety known but not listed; "
+    },
+    {
+      "value": "People: Partner",
+      "description": "People - Partner; "
+    },
+    {
+      "value": "People: System admin",
+      "description": "People - Administrator; "
+    },
+    {
+      "value": "Server: Authentication",
+      "description": "Server - Authentication; "
+    },
+    {
+      "value": "Server: Backup",
+      "description": "Server - Backup; "
+    },
+    {
+      "value": "Server: Code repository",
+      "description": "Server - Code repository; "
+    },
+    {
+      "value": "Server: DCS",
+      "description": "Server - Distributed control system (DCS); "
+    },
+    {
+      "value": "Server: DHCP",
+      "description": "Server - DHCP; "
+    },
+    {
+      "value": "Server: DNS",
+      "description": "Server - DNS; "
+    },
+    {
+      "value": "Server: Database",
+      "description": "Server - Database; "
+    },
+    {
+      "value": "Server: Directory",
+      "description": "Server - Directory (LDAP, AD); "
+    },
+    {
+      "value": "Server: File",
+      "description": "Server - File; "
+    },
+    {
+      "value": "Server: Log",
+      "description": "Server - Log or event management; "
+    },
+    {
+      "value": "Server: Mail",
+      "description": "Server - Mail; "
+    },
+    {
+      "value": "Server: Mainframe",
+      "description": "Server - Mainframe; "
+    },
+    {
+      "value": "Server: Other",
+      "description": "Server - Variety known but not listed; "
+    },
+    {
+      "value": "Server: POS controller",
+      "description": "Server - POS controller; "
+    },
+    {
+      "value": "Server: Payment switch",
+      "description": "Server - Payment switch or gateway; "
+    },
+    {
+      "value": "Server: Print",
+      "description": "Server - Print; "
+    },
+    {
+      "value": "Server: Proxy",
+      "description": "Server - Proxy; "
+    },
+    {
+      "value": "Server: Remote access",
+      "description": "Server - Remote access; "
+    },
+    {
+      "value": "Server: ICS",
+      "description": "Server - Industrial Control System (ICS). Includes Supervisory Control And Data Acquisition (SCADA) systems.; "
+    },
+    {
+      "value": "Server: VM host",
+      "description": "Server - Virtual Host; "
+    },
+    {
+      "value": "Server: Web application",
+      "description": "Server - Web application; "
+    },
+    {
+      "value": "Server: Unknown",
+      "description": "Server - Unknown; "
+    },
+    {
+      "value": "Pub. Terminal: ATM",
+      "description": "Public Terminal - Automated Teller Machine (ATM); "
+    },
+    {
+      "value": "Pub. Terminal: Gas terminal",
+      "description": "Public Terminal - Gas \\pay-at-the-pump\\ terminal; "
+    },
+    {
+      "value": "Pub. Terminal: Kiosk",
+      "description": "Public Terminal - Self-service kiosk; "
+    },
+    {
+      "value": "Pub. Terminal: Other",
+      "description": "Public Terminal - Variety known but not listed; "
+    },
+    {
+      "value": "Pub. Terminal: PED pad",
+      "description": "Public Terminal - Detached PIN pad or card reader; "
+    },
+    {
+      "value": "User Device: Auth token",
+      "description": "User Device - Authentication token or device; "
+    },
+    {
+      "value": "User Device: Desktop",
+      "description": "User Device - Desktop or workstation; "
+    },
+    {
+      "value": "User Device: Laptop",
+      "description": "User Device - Laptop; "
+    },
+    {
+      "value": "User Device: Media",
+      "description": "User Device - Media player or recorder; "
+    },
+    {
+      "value": "User Device: Mobile phone",
+      "description": "User Device - Mobile phone or smartphone; "
+    },
+    {
+      "value": "User Device: Other",
+      "description": "User Device - Variety known but not listed; "
+    },
+    {
+      "value": "User Device: POS terminal",
+      "description": "User Device - POS terminal; "
+    },
+    {
+      "value": "User Device: Peripheral",
+      "description": "User Device - Peripheral (e.g., printer, copier, fax); "
+    },
+    {
+      "value": "User Device: Tablet",
+      "description": "User Device - Tablet; "
+    },
+    {
+      "value": "User Device: Telephone",
+      "description": "User Device - Telephone; "
+    },
+    {
+      "value": "User Device: VoIP phone",
+      "description": "User Device - VoIP phone; "
+    },
+    {
+      "value": "Embedded: Telemetry",
+      "description": "Embedded - A dedicated device that collects data about the physical world; "
+    },
+    {
+      "value": "Embedded: Telematics",
+      "description": "Embedded - A dedicated device that affects the real world; "
+    },
+    {
+      "value": "Other",
+      "description": "Asset type known but not User Device, Server, Public Terminal, Server, People, Network, or Medi; "
+    }
+  ],
+  "version": 1,
+  "uuid": "f4587dd1-8b26-4eec-8123-22047d4ca397",
+  "description": "Attacker targets by action type based on the veris framework",
+  "authors": [
+    "kx499"
+  ],
+  "source": "http://veriscommunity.net/enums.html",
+  "type": "ttp-veris-targets",
+  "name": "ttp-veris-targets"
+}

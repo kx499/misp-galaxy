@@ -1,0 +1,7 @@
+{
+  "type": "ttp-sophistication",
+  "name": "TTP - Sophistication",
+  "description": "TTP Sophistications is a way to represent the sophistication of an event based on targeting and malware features",
+  "version": 1,
+  "uuid": "91dd82c6-69aa-4bfa-ba31-df123f421511"
+}

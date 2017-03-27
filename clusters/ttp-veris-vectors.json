@@ -1,0 +1,273 @@
+{
+  "values": [
+    {
+      "value": "ï»¿Error:Carelessness",
+      "description": "Carelessness; "
+    },
+    {
+      "value": "Error:Inadequate personnel",
+      "description": "Inadequate or insufficient personnel; "
+    },
+    {
+      "value": "Error:Inadequate processes",
+      "description": "Inadequate or insufficient processes; "
+    },
+    {
+      "value": "Error:Inadequate technology",
+      "description": "Inadequate or insufficient technology resources; "
+    },
+    {
+      "value": "Error:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Error:Random error",
+      "description": "Random error (no reason, no fault); "
+    },
+    {
+      "value": "Hacking:3rd party desktop",
+      "description": "3rd party online desktop sharing (LogMeIn, Go2Assist); "
+    },
+    {
+      "value": "Hacking:Backdoor or C2",
+      "description": "Backdoor or command and control channel; "
+    },
+    {
+      "value": "Hacking:Command shell",
+      "description": "Remote shell; "
+    },
+    {
+      "value": "Hacking:Desktop sharing",
+      "description": "Graphical desktop sharing (RDP, VNC, PCAnywhere, Citrix); "
+    },
+    {
+      "value": "Hacking:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Hacking:Partner",
+      "description": "Partner connection or credential; "
+    },
+    {
+      "value": "Hacking:Physical access",
+      "description": "Physical access or connection (i.e., at keyboard or via cable); "
+    },
+    {
+      "value": "Hacking:VPN",
+      "description": "VPN; "
+    },
+    {
+      "value": "Hacking:Web application",
+      "description": "Web applicatio; "
+    },
+    {
+      "value": "Malware:Direct install",
+      "description": "Directly installed or inserted by threat agent (after system access); "
+    },
+    {
+      "value": "Malware:Download by malware",
+      "description": "Downloaded and installed by local malware; "
+    },
+    {
+      "value": "Malware:Email rtf/doc/docx attachment",
+      "description": "Email via user-executed attachment; "
+    },
+    {
+      "value": "Malware:Email pdf attachment",
+      "description": "\"Email via user-executed attachment\"; "
+    },
+    {
+      "value": "Malware:Email ppt attachment",
+      "description": "\"Email via user-executed attachment\"; "
+    },
+    {
+      "value": "Malware:Email xls/xlsx attachment",
+      "description": "\"Email via user-executed attachment\"; "
+    },
+    {
+      "value": "Malware:Email zip/rar attachment",
+      "description": "\"Email via user-executed attachment\"; "
+    },
+    {
+      "value": "Malware:Email html/hta attachment",
+      "description": "\"Email via user-executed attachment\"; "
+    },
+    {
+      "value": "Malware:Email script attachment",
+      "description": "\"Email via user-executed attachment\"; "
+    },
+    {
+      "value": "Malware:Email autoexecute",
+      "description": "Email via automatic execution; "
+    },
+    {
+      "value": "Malware:Email link",
+      "description": "Email via embedded link; "
+    },
+    {
+      "value": "Malware:Email unknown",
+      "description": "Email but sub-variety (attachment, autoexecute, link, etc) not known; "
+    },
+    {
+      "value": "Malware:Instant messaging",
+      "description": "Instant Messaging; "
+    },
+    {
+      "value": "Malware:Network propagation",
+      "description": "Network propagation; "
+    },
+    {
+      "value": "Malware:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Malware:Remote injection",
+      "description": "Remotely injected by agent (i.e. via SQLi); "
+    },
+    {
+      "value": "Malware:Removable media",
+      "description": "Removable storage media or devices; "
+    },
+    {
+      "value": "Malware:Software update",
+      "description": "Included in automated software update; "
+    },
+    {
+      "value": "Malware:Web download",
+      "description": "Web via user-executed or downloaded content; "
+    },
+    {
+      "value": "Malware:Web drive-by",
+      "description": "Web via auto-executed or \\drive-by\\ infectio; "
+    },
+    {
+      "value": "Misuse:LAN access",
+      "description": "Local network access within corporate facility; "
+    },
+    {
+      "value": "Misuse:Non-corporate",
+      "description": "Non-corporate facilities or networks; "
+    },
+    {
+      "value": "Misuse:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Misuse:Physical access",
+      "description": "Physical access within corporate facility; "
+    },
+    {
+      "value": "Misuse:Remote access",
+      "description": "Remote access connection to corporate network (i.e. VPN); "
+    },
+    {
+      "value": "Physical:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Physical:Partner facility",
+      "description": "Partner facility or area; "
+    },
+    {
+      "value": "Physical:Partner vehicle",
+      "description": "Partner vehicle (e.g., delivery truck); "
+    },
+    {
+      "value": "Physical:Personal residence",
+      "description": "Personal residence; "
+    },
+    {
+      "value": "Physical:Personal vehicle",
+      "description": "Personal vehicle; "
+    },
+    {
+      "value": "Physical:Public facility",
+      "description": "Public facility or area; "
+    },
+    {
+      "value": "Physical:Public vehicle",
+      "description": "Public vehicle (e.g., plane, taxi); "
+    },
+    {
+      "value": "Physical:Privileged access",
+      "description": "Held privileged access to location; "
+    },
+    {
+      "value": "Physical:Uncontrolled location",
+      "description": "The location was uncontrolled (public); "
+    },
+    {
+      "value": "Physical:Victim grounds",
+      "description": "Victim outdoor grounds; "
+    },
+    {
+      "value": "Physical:Victim public area",
+      "description": "Victim public or customer area (e.g., lobby, storefront); "
+    },
+    {
+      "value": "Physical:Victim secure area",
+      "description": "Victim high security area (e.g., server room, R&D labs); "
+    },
+    {
+      "value": "Physical:Victim work area",
+      "description": "Victim private or work area (e.g., office space); "
+    },
+    {
+      "value": "Physical:Visitor privileges",
+      "description": "Given temporary visitor acces; "
+    },
+    {
+      "value": "Social:Documents",
+      "description": "Documents; "
+    },
+    {
+      "value": "Social:Email",
+      "description": "Email; "
+    },
+    {
+      "value": "Social:IM",
+      "description": "Instant messaging; "
+    },
+    {
+      "value": "Social:In-person",
+      "description": "In-person; "
+    },
+    {
+      "value": "Social:Other",
+      "description": "Other; "
+    },
+    {
+      "value": "Social:Phone",
+      "description": "Phone; "
+    },
+    {
+      "value": "Social:Removable media",
+      "description": "Removable storage media; "
+    },
+    {
+      "value": "Social:SMS",
+      "description": "SMS or texting; "
+    },
+    {
+      "value": "Social:Social media",
+      "description": "Social media or networking; "
+    },
+    {
+      "value": "Social:Software",
+      "description": "Software; "
+    },
+    {
+      "value": "Social:Website",
+      "description": "Websit; "
+    }
+  ],
+  "version": 1,
+  "uuid": "ff6a7062-59e0-438e-a90b-f3c8f22b1811",
+  "description": "Attacker vectors by action type based on the veris framework",
+  "authors": [
+    "kx499"
+  ],
+  "source": "http://veriscommunity.net/enums.html",
+  "type": "ttp-veris-vectors",
+  "name": "ttp-veris-vectors"
+}
