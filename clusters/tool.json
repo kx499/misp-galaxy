@@ -2771,6 +2771,20 @@
           "http://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/"
         ]
       }
+    },
+    {
+      "meta": {
+        "refs": [
+          "https://www.secureworks.com/blog/netwire-rat-steals-payment-card-data",
+          "https://threatpost.com/netwire-rat-back-stealing-payment-card-data/122156/",
+          "http://researchcenter.paloaltonetworks.com/2014/08/new-release-decrypting-netwire-c2-traffic/"
+        ],
+        "synonyms": [
+          "Net Wire"
+        ]
+      },
+      "description": "NetWire remote access trojan (RAT) has been widely used by cybercriminals since 2012. In September 2016, Secureworks researchers observed a new version of NetWire that was scraping card data and using a keylogger that can gather data from devices like USB card readers. The trojan is spread through phishing emails with malicious attachments. NetWire can linger for months or years once it’s infected. The researchers state that the file creates a Windows shortcut in the Startup menu to ensure it launches every time the victim logs into the system and it injects code in notepad.exe to evade detection. In early 2016, it was used in attacks against banks and healthcare companies. Victims opened Word documents embedded with malicious macros and the RAT downloaded from Dropbox to infect the user. In 2014, Palo Alto Networks uncovered that Nigerian scammers were using NetWire to remotely control infected systems.",
+      "value": "NetWire RAT"
     }
   ]
 }
