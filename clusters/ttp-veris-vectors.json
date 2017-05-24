@@ -221,8 +221,16 @@
       "description": "Documents; "
     },
     {
-      "value": "Social:Email",
-      "description": "Email; "
+      "value": "Social:Email-attachments",
+      "description": "Email with attachments "
+    },
+    {
+      "value": "Social:Email-links",
+      "description": "Email with links to a website or login page"
+    },
+    {
+      "value": "Social:Email-other",
+      "description": "All other emails"
     },
     {
       "value": "Social:IM",

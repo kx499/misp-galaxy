@@ -2785,6 +2785,19 @@
       },
       "description": "NetWire remote access trojan (RAT) has been widely used by cybercriminals since 2012. In September 2016, Secureworks researchers observed a new version of NetWire that was scraping card data and using a keylogger that can gather data from devices like USB card readers. The trojan is spread through phishing emails with malicious attachments. NetWire can linger for months or years once it’s infected. The researchers state that the file creates a Windows shortcut in the Startup menu to ensure it launches every time the victim logs into the system and it injects code in notepad.exe to evade detection. In early 2016, it was used in attacks against banks and healthcare companies. Victims opened Word documents embedded with malicious macros and the RAT downloaded from Dropbox to infect the user. In 2014, Palo Alto Networks uncovered that Nigerian scammers were using NetWire to remotely control infected systems.",
       "value": "NetWire RAT"
+    },
+    {
+      "meta": {
+        "refs": [
+          "https://securityintelligence.com/gozi-banking-trojan-upgrades-build-to-inject-into-windows-10-edge-browser/",
+          "https://www.proofpoint.com/us/what-old-new-again-nymaim-moves-past-its-ransomware-roots-0"
+        ],
+        "synonyms": [
+          "GOZNym"
+        ]
+      },
+      "description": "Nymaim is, at its core, a downloader Trojan that can be used to install a variety of malware. Recently there have been multiple campaigns utilizing email to send document attachments or URLs leading to documents. When users open one of these documents, the macros download and install Nymaim. Nymaim installs the Ursnif banking Trojan or Neverquest banking trojan. ",
+      "value": "Nymaim"
     }
   ]
 }

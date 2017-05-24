@@ -469,6 +469,10 @@
       "description": "Bribery or solicitation; "
     },
     {
+      "value": "Social:BEC",
+      "description": "Business Email Compromise, WireFraud, or CEO Spoofing. A combination of pretexting, Forgery, and Influence."
+    },
+    {
       "value": "Social:Elicitation",
       "description": "Elicitation (subtle extraction of info through conversation); "
     },
