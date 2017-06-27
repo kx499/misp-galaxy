@@ -6,6 +6,7 @@
           "Comment Panda",
           "PLA Unit 61398",
           "APT 1",
+          "APT1",
           "Advanced Persistent Threat 1",
           "Byzantine Candor",
           "Group 3",
@@ -219,7 +220,8 @@
         ],
         "country": "CN",
         "refs": [
-          "http://www.fireeye.com/blog/technical/cyber-exploits/2013/09/operation-deputydog-zero-day-cve-2013-3893-attack-against-japanese-targets.html"
+          "http://www.fireeye.com/blog/technical/cyber-exploits/2013/09/operation-deputydog-zero-day-cve-2013-3893-attack-against-japanese-targets.html",
+          "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/hidden_lynx.pdf"
         ]
       },
       "value": "Aurora Panda",
@@ -375,7 +377,9 @@
           "menuPass",
           "happyyongzi",
           "POTASSIUM",
-          "DustStorm"
+          "DustStorm",
+          "Red Apollo",
+          "CVNX"
         ],
         "country": "CN",
         "refs": [
@@ -503,15 +507,6 @@
           "http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/"
         ]
       }
-    },
-    {
-      "meta": {
-        "country": "CN",
-        "refs": [
-          "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/hidden_lynx.pdf"
-        ]
-      },
-      "value": "HiddenLynx"
     },
     {
       "meta": {
@@ -754,6 +749,7 @@
           "Group-4127",
           "STRONTIUM",
           "TAG_0700",
+          "Swallowtail",
           "IRON TWILIGHT"
         ],
         "country": "RU",
@@ -957,13 +953,16 @@
       "meta": {
         "country": "KP",
         "synonyms": [
-          "Operation DarkSeoul"
+          "Operation DarkSeoul",
+          "Hidden Cobra"
         ],
         "refs": [
-          "https://threatpost.com/operation-blockbuster-coalition-ties-destructive-attacks-to-lazarus-group/116422/"
+          "https://threatpost.com/operation-blockbuster-coalition-ties-destructive-attacks-to-lazarus-group/116422/",
+          "https://www.us-cert.gov/ncas/alerts/TA17-164A"
         ]
       },
-      "value": "Lazarus Group"
+      "value": "Lazarus Group",
+      "description": "Since 2009, HIDDEN COBRA actors have leveraged their capabilities to target and compromise a range of victims; some intrusions have resulted in the exfiltration of data while others have been disruptive in nature. Commercial reporting has referred to this activity as Lazarus Group and Guardians of Peace. Tools and capabilities used by HIDDEN COBRA actors include DDoS botnets, keyloggers, remote access tools (RATs), and wiper malware. Variants of malware and tools used by HIDDEN COBRA actors include Destover, Duuzer, and Hangman."
     },
     {
       "meta": {
@@ -1080,9 +1079,6 @@
     {
       "meta": {
         "country": "CN",
-        "synonyms": [
-          "Operation C-Major"
-        ],
         "refs": [
           "http://blog.checkpoint.com/wp-content/uploads/2016/07/HummingBad-Research-report_FINAL-62916.pdf"
         ]
@@ -1536,6 +1532,75 @@
       },
       "value": "APT32",
       "description": "Cyber espionage actors, now designated by FireEye as APT32 (OceanLotus Group), are carrying out intrusions into private sector companies across multiple industries and have also targeted foreign governments, dissidents, and journalists. FireEye assesses that APT32 leverages a unique suite of fully-featured malware, in conjunction with commercially-available tools, to conduct targeted operations that are aligned with Vietnamese state interests."
+    },
+    {
+      "value": "SilverTerrier",
+      "description": "As these tools rise and fall in popularity (and more importantly, as detection rates by antivirus vendors improve), SilverTerrier actors have consistently adopted new malware families and shifted to the latest packing tools available. ",
+      "meta": {
+        "country": "NG",
+        "refs": [
+          "https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/Unit_42/silverterrier-next-evolution-in-nigerian-cybercrime.pdf"
+        ]
+      }
+    },
+    {
+      "value": "WildNeutron",
+      "description": "A corporate espionage group has compromised a string of major corporations over the past three years in order to steal confidential information and intellectual property. The gang, which Symantec calls Butterfly, is not-state sponsored, rather financially motivated. It has attacked multi-billion dollar companies operating in the internet, IT software, pharmaceutical, and commodities sectors. Twitter, Facebook, Apple, and Microsoft are among the companies who have publicly acknowledged attacks.",
+      "meta": {
+        "country": "",
+        "refs": [
+          "https://www.symantec.com/connect/blogs/butterfly-profiting-high-level-corporate-attacks",
+          "https://securelist.com/71275/wild-neutron-economic-espionage-threat-actor-returns-with-new-tricks/",
+          "https://research.kudelskisecurity.com/2015/11/05/sphinx-moth-expanding-our-knowledge-of-the-wild-neutron-morpho-apt/"
+        ],
+        "synonyms": [
+          "Butterfly",
+          "Morpho",
+          "Sphinx Moth"
+        ]
+      }
+    },
+    {
+      "value": "PLATINUM",
+      "description": "PLATINUM has been targeting its victims since at least as early as 2009, and may have been active for several years prior. Its activities are distinctly different not only from those typically seen in untargeted attacks, but from many targeted attacks as well. A large share of targeted attacks can be characterized as opportunistic: the activity group changes its target profiles and attack geographies based on geopolitical seasons, and may attack institutions all over the world. Like many such groups, PLATINUM seeks to steal sensitive intellectual property related to government interests, but its range of preferred targets is consistently limited to specific governmental organizations, defense institutes, intelligence agencies, diplomatic institutions, and telecommunication providers in South and Southeast Asia. The group’s persistent use of spear phishing tactics (phishing attempts aimed at specific individuals) and access to previously undiscovered zero-day exploits have made it a highly resilient threat.",
+      "meta": {
+        "refs": [
+          "http://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf",
+          "https://blogs.technet.microsoft.com/mmpc/2016/04/26/digging-deep-for-platinum/"
+        ]
+      }
+    },
+    {
+      "value": "ELECTRUM",
+      "description": "Dragos, Inc. tracks the adversary group behind CRASHOVERRIDE as ELECTRUM and assesses with high confidence through confidential sources that ELECTRUM has direct ties to the Sandworm team. Our intelligence ICS WorldView customers have received a comprehensive report and this industry report will not get into sensitive technical details but instead focus on information needed for defense and impact awareness.",
+      "meta": {
+        "refs": [
+          "https://dragos.com/blog/crashoverride/CrashOverride-01.pdf",
+          "https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf"
+        ]
+      }
+    },
+    {
+      "meta": {
+        "refs": [
+          "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html",
+          "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
+          "https://www.root9b.com/sites/default/files/whitepapers/PoS%20Malware%20ShellTea%20PoSlurp.pdf",
+          "http://files.shareholder.com/downloads/AMDA-254Q5F/0x0x938351/665BA6A3-9573-486C-B96F-80FA35759E8C/FEYE_rpt-mtrends-2017_FINAL2.pdf"
+        ]
+      },
+      "description": "FIN8 is a financially motivated group targeting the retail, hospitality and entertainment industries. The actor had previously conducted several tailored spearphishing campaigns using the downloader PUNCHBUGGY and POS malware PUNCHTRACK.",
+      "value": "FIN8"
+    },
+    {
+      "value": "El Machete",
+      "description": "El Machete is one of these threats that was first publicly disclosed and named by Kaspersky here. We’ve found that this group has continued to operate successfully, predominantly in Latin America, since 2014. All attackers simply moved to new C2 infrastructure, based largely around dynamic DNS domains, in addition to making minimal changes to the malware in order to evade signature-based detection.",
+      "meta": {
+        "refs": [
+          "https://securelist.com/blog/research/66108/el-machete/",
+          "https://www.cylance.com/en_us/blog/el-machete-malware-attacks-cut-through-latam.html"
+        ]
+      }
     }
   ],
   "name": "Threat actor",
@@ -1550,5 +1615,5 @@
   ],
   "description": "Known or estimated adversary groups targeting organizations and employees. Adversary groups are regularly confused with their initial operation or campaign.",
   "uuid": "7cdff317-a673-4474-84ec-4f1754947823",
-  "version": 20
+  "version": 25
 }

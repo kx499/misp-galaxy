@@ -10,7 +10,7 @@
   ],
   "description": "threat-actor-tools is an enumeration of tools used by adversaries. The list includes malware but also common software regularly used by the adversaries.",
   "uuid": "0d821b68-9d82-4c6d-86a6-1071a9e0f79f",
-  "version": 33,
+  "version": 34,
   "values": [
     {
       "meta": {
@@ -1013,6 +1013,17 @@
         ]
       },
       "value": "IsSpace"
+    },
+    {
+      "value": "Emotet",
+      "meta": {
+        "refs": [
+          "https://securelist.com/analysis/publications/69560/the-banking-trojan-emotet-detailed-analysis/"
+        ],
+        "synonyms": [
+          "Geodo"
+        ]
+      }
     },
     {
       "meta": {
@@ -2798,6 +2809,29 @@
       },
       "description": "Nymaim is, at its core, a downloader Trojan that can be used to install a variety of malware. Recently there have been multiple campaigns utilizing email to send document attachments or URLs leading to documents. When users open one of these documents, the macros download and install Nymaim. Nymaim installs the Ursnif banking Trojan or Neverquest banking trojan. ",
       "value": "Nymaim"
+    },
+    { 
+      "description": "Many links indicate, that this bot is another product of the people previously involved in Dyreza. It seems to be rewritten from scratch – however, it contains many similar features and solutions to those we encountered analyzing Dyreza (read more).",
+      "value": "Trick Bot",
+      "meta": {
+        "refs": [
+          "https://blog.malwarebytes.com/threat-analysis/2016/10/trick-bot-dyrezas-successor/",
+          "https://blog.fraudwatchinternational.com/malware/trickbot-malware-works",
+          "https://securityintelligence.com/trickbot-is-hand-picking-private-banks-for-targets-with-redirection-attacks-in-tow/"
+        ],
+        "synonyms": [
+          "TrickBot",
+          "TrickLoader"
+        ]
+      }
+    },
+    {
+      "value": "Moneygram Adwind",
+      "meta": {
+        "refs": [
+          "https://myonlinesecurity.co.uk/new-guidelines-from-moneygram-malspam-delivers-a-brand-new-java-adwind-version/"
+        ]
+      }
     }
   ]
 }
