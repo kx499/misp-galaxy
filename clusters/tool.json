@@ -389,7 +389,8 @@
           "Backdoor"
         ],
         "refs": [
-          "https://securelist.com/blog/incidents/57455/nettraveler-is-back-the-red-star-apt-returns-with-new-tricks/"
+          "https://securelist.com/blog/incidents/57455/nettraveler-is-back-the-red-star-apt-returns-with-new-tricks/",
+          "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/winnti-more-than-just-a-game-130410.pdf"
         ],
         "synonyms": [
           "Etso",
@@ -406,7 +407,8 @@
           "HackTool"
         ],
         "refs": [
-          "https://github.com/gentilkiwi/mimikatz"
+          "https://github.com/gentilkiwi/mimikatz",
+          "https://researchcenter.paloaltonetworks.com/2017/07/unit42-twoface-webshell-persistent-access-point-lateral-movement/"
         ],
         "synonyms": [
           "Mikatz"
@@ -1629,7 +1631,8 @@
     {
       "meta": {
         "synonyms": [
-          "Floki Bot"
+          "Floki Bot",
+          "Floki"
         ],
         "refs": [
           "https://www.arbornetworks.com/blog/asert/flokibot-flock-bots/",
@@ -2826,10 +2829,182 @@
       }
     },
     {
+      "description": "Netskope Threat Research Labs recently discovered a Phishing-as-a-Service (PhaaS) platform named Hackshit, that records the credentials of the phished bait victims. The phished bait pages are packaged with base64 encoding and served from secure (HTTPS) websites with “.moe” top level domain (TLD) to evade traditional scanners. “.moe” TLD is intended for the purpose of ‘The marketing of products or services deemed’. The victim’s credentials are sent to the Hackshit PhaaS platform via websockets. The Netskope Active Platform can proactively protect customers by creating custom applications and a policy to block all the activities related to Hackshit PhaaS.",
+      "value": "Hackshit",
+      "meta": {
+        "refs": [
+          "https://resources.netskope.com/h/i/352356475-phishing-as-a-service-phishing-revamped"
+        ]
+      }
+    },
+    {
       "value": "Moneygram Adwind",
       "meta": {
         "refs": [
           "https://myonlinesecurity.co.uk/new-guidelines-from-moneygram-malspam-delivers-a-brand-new-java-adwind-version/"
+        ]
+      }
+    },
+    {
+      "description": " Banload has been around since the last decade. This malware generally arrives on a victim’s system through a spam email containing an archived file or bundled software as an attachment. In a few cases, this malware may also be dropped by other malware or a drive-by download. When executed, Banload downloads other malware, often banking Trojans, on the victim’s system to carry out further infections.",
+      "value": "Banload",
+      "meta": {
+        "refs": [
+          "https://researchcenter.paloaltonetworks.com/2016/03/banload-malware-affecting-brazil-exhibits-unusually-complex-infection-process/",
+          "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/banload",
+          "http://blog.trendmicro.com/trendlabs-security-intelligence/banload-limits-targets-via-security-plugin/",
+          "https://securingtomorrow.mcafee.com/mcafee-labs/banload-trojan-targets-brazilians-with-malware-downloads/"
+        ]
+      }
+    },
+    {
+      "description": "This small application is used to download other malware. What makes the bot interesting are various tricks that it uses for deception and self protection.",
+      "value": "Smoke Loader",
+      "meta": {
+        "refs": [
+          "https://blog.malwarebytes.com/threat-analysis/2016/08/smoke-loader-downloader-with-a-smokescreen-still-alive/"
+        ],
+        "synonyms": [
+          "Dofoil"
+        ]
+      }
+    },
+    {
+      "description": "The analyzed sample has a recent compilation date (2017-06-24) and is available on VirusTotal. It starts out by resolving several Windows functions using API hashing (CRC32 is used as the hashing function).",
+      "value": "LockPoS",
+      "meta": {
+        "refs": [
+          "https://www.arbornetworks.com/blog/asert/lockpos-joins-flock/"
+        ]
+      }
+    },
+    {
+      "description": "Win.Worm.Fadok drops several files. %AppData%\\RAC\\mls.exe or %AppData%\\RAC\\svcsc.exe are instances of the malware which are auto-started when Windows starts. Further, the worm drops and opens a Word document. It connects to the domain wxanalytics[.]ru.",
+      "value": "Fadok",
+      "meta": {
+        "refs": [
+          "https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Worm%3AWin32%2FFadok.A",
+          "http://blog.talosintelligence.com/2017/06/threat-roundup-0602-0609.html"
+        ],
+        "synonyms": [
+          "Win32/Fadok"
+        ]
+      }
+    },
+    {
+      "description": "Loki Bot is a commodity malware sold on underground sites which is designed to steal private data from infected machines, and then submit that info to a command and control host via HTTP POST. This private data includes stored passwords, login credential information from Web browsers, and a variety of cryptocurrency wallets.",
+      "value": "Loki Bot",
+      "meta": {
+        "refs": [
+          "https://phishme.com/loki-bot-malware/"
+        ]
+      }
+    },
+    {
+      "description": "Talos has discovered an unknown Remote Administration Tool that we believe has been in use for over 3 years. During this time it has managed to avoid scrutiny by the security community. The current version of the malware allows the operator to steal files, keystrokes, perform screenshots, and execute arbitrary code on the infected host. Talos has named this malware KONNI. \nThroughout the multiple campaigns observed over the last 3 years, the actor has used an email attachment as the initial infection vector. They then use additional social engineering to prompt the target to open a .scr file, display a decoy document to the users, and finally execute the malware on the victim's machine. The malware infrastructure of the analysed samples was hosted by a free web hosting provider: 000webhost. The malware has evolved over time. In this article, we will analyse this evolution:",
+      "value": "KONNI",
+      "meta": {
+        "refs": [
+          "http://blog.talosintelligence.com/2017/05/konni-malware-under-radar-for-years.html"
+        ]
+      }
+    },
+    {
+      "description": "Recently, Palo Alto Networks researchers discovered an advanced Android malware we’ve named “SpyDealer” which exfiltrates private data from more than 40 apps and steals sensitive messages from communication apps by abusing the Android accessibility service feature. SpyDealer uses exploits from a commercial rooting app to gain root privilege, which enables the subsequent data theft.",
+      "value": "SpyDealer",
+      "meta": {
+        "refs": [
+          "https://researchcenter.paloaltonetworks.com/2017/07/unit42-spydealer-android-trojan-spying-40-apps/"
+        ]
+      }
+    },
+    {
+      "value": "CowerSnail",
+      "description": "CowerSnail was compiled using Qt and linked with various libraries. This framework provides benefits such as cross-platform capability and transferability of the source code between different operating systems. ",
+      "meta": {
+        "refs": [
+          "https://securelist.com/cowersnail-from-the-creators-of-sambacry/79087/"
+        ]
+      }
+    },
+    {
+      "description": "In mid-July 2017, we found a new modification of the well-known mobile banking malware family Svpeng – Trojan-Banker.AndroidOS.Svpeng.ae. In this modification, the cybercriminals have added new functionality: it now also works as a keylogger, stealing entered text through the use of accessibility services.",
+      "value": "Svpeng",
+      "meta": {
+        "refs": [
+          "https://securelist.com/a-new-era-in-mobile-banking-trojans/79198/"
+        ],
+        "synonyms": [
+          "trojan-banker.androidos.svpeng.ae"
+        ]
+      }
+    },
+    {
+      "description": "While investigating a recent security incident, Unit 42 found a webshell that we believe was used by the threat actor to remotely access the network of a targeted Middle Eastern organization. The construction of the webshell was interesting by itself, as it was actually two separate webshells: an initial webshell that was responsible for saving and loading the second fully functional webshell. It is this second webshell that enabled the threat actor to run a variety of commands on the compromised server. Due to these two layers, we use the name TwoFace to track this webshell.\nDuring our analysis, we extracted the commands executed by the TwoFace webshell from the server logs on the compromised server. Our analysis shows that the commands issued by the threat actor date back to June 2016; this suggests that the actor had access to this shell for almost an entire year. The commands issued show the actor was interested in gathering credentials from the compromised server using the Mimikatz tool. We also saw the attacker using the TwoFace webshell to move laterally through the network by copying itself and other webshells to other servers.",
+      "value": "TwoFace",
+      "meta": {
+        "type": [
+          "webshell"
+        ],
+        "refs": [
+          "https://researchcenter.paloaltonetworks.com/2017/07/unit42-twoface-webshell-persistent-access-point-lateral-movement/"
+        ]
+      }
+    },
+    {
+      "description": "Like TwoFace, the IntrudingDivisor webshell requires the threat actor to authenticate before issuing commands. To authenticate, the actor must provide two pieces of information, first an integer that is divisible by 5473 and a string whose MD5 hash is “9A26A0E7B88940DAA84FC4D5E6C61AD0”. Upon successful authentication, the webshell has a command handler that uses integers within the request to determine the command to execute - To complete",
+      "value": "IntrudingDivisor",
+      "meta": {
+        "type": [
+          "webshell"
+        ],
+        "refs": [
+          "https://researchcenter.paloaltonetworks.com/2017/07/unit42-twoface-webshell-persistent-access-point-lateral-movement/"
+        ]
+      }
+    },
+    {
+      "description": "Attacks that use completely fileless malware are a rare occurrence, so we thought it important to discuss a new trojan known as JS_POWMET (Detected by Trend Micro as JS_POWMET.DE), which arrives via an autostart registry procedure. By utilizing a completely fileless infection chain, the malware will be more difficult to analyze using a sandbox, making it more difficult for anti-malware engineers to examine.",
+      "value": "JS_POWMET",
+      "meta": {
+        "refs": [
+          "http://blog.trendmicro.com/trendlabs-security-intelligence/look-js_powmet-completely-fileless-malware/"
+        ]
+      }
+    },
+    {
+      "value": "EngineBox Malware",
+      "description": "The main malware capabilities include a privilege escalation attempt using MS16–032 exploitation; a HTTP Proxy to intercept banking transactions; a backdoor to make it possible for the attacker to issue arbitrary remote commands and a C&C through a IRC channel. As it's being identified as a Generic Trojan by most of VirusTotal (VT) engines, let s name it EngineBox— the core malware class I saw after reverse engineering it.",
+      "meta": {
+        "refs": [
+          "https://isc.sans.edu/diary/22736"
+        ]
+      }
+    },
+    {
+      "value": "Joao",
+      "description": "Spread via hacked Aeria games offered on unofficial websites, the modular malware can download and install virtually any other malicious code on the victim’s computer. To spread their malware, the attackers behind Joao have misused massively-multiplayer online role-playing games (MMORPGs) originally published by Aeria Games. At the time of writing this article, the Joao downloader was being distributed via the anime-themed MMORPG Grand Fantasia offered on gf.ignitgames[.]to.",
+      "meta": {
+        "refs": [
+          "https://www.welivesecurity.com/2017/08/22/gamescom-2017-fun-blackhats/"
+        ]
+      }
+    },
+    {
+      "value": "Fireball",
+      "description": "Upon execution, Fireball installs a browser hijacker as well as any number of adware programs. Several different sources have linked different indicators of compromise (IOCs) and varied payloads, but a few details remain the same.",
+      "meta": {
+        "refs": [
+          "https://www.cylance.com/en_us/blog/threat-spotlight-is-fireball-adware-or-malware.html"
+        ]
+      }
+    },
+    {
+      "value": "ShadowPad",
+      "description": "ShadowPad is a modular cyber-attack platform that attackers deploy in victim networks to gain flexible remote control capabilities. The platform is designed to run in two stages. The first stage is a shellcode that was embedded in a legitimate nssock2.dll used by Xshell, Xmanager and other software packages produced by NetSarang. This stage is responsible for connecting to “validation” command and control (C&C) servers and getting configuration information including the location of the real C&C server, which may be unique per victim. The second stage acts as an orchestrator for five main modules responsible for C&C communication, working with the DNS protocol, loading and injecting additional plugins into the memory of other processes.",
+      "meta": {
+        "refs": [
+          "https://cdn.securelist.com/files/2017/08/ShadowPad_technical_description_PDF.pdf"
         ]
       }
     }
