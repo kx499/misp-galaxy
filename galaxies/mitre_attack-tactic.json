@@ -1,0 +1,8 @@
+{
+  "description": "ATT&CK Tactic Category",
+  "uuid": "0dab2a74-77cb-41dd-974b-ecd586014c4f",
+  "version": 1,
+  "type": "mitre-attack-tactic",
+  "name": "Attack Tactic",
+  "icon": "map"
+}
