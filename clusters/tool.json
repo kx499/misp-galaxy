@@ -10,7 +10,7 @@
   ],
   "description": "threat-actor-tools is an enumeration of tools used by adversaries. The list includes malware but also common software regularly used by the adversaries.",
   "uuid": "0d821b68-9d82-4c6d-86a6-1071a9e0f79f",
-  "version": 34,
+  "version": 35,
   "values": [
     {
       "meta": {
@@ -1617,7 +1617,7 @@
         ]
       },
       "description": "Two Italians referred to as the “Occhionero brothers” have been arrested and accused of using malware and a carefully-prepared spear-phishing scheme to spy on high-profile politicians and businessmen. This case has been called “EyePyramid”, which we first discussed last week. (Conspiracy theories aside, the name came from a domain name and directory path that was found during the research.)",
-      "value": " EyePyramid Malware"
+      "value": "EyePyramid Malware"
     },
     {
       "meta": {
@@ -2616,6 +2616,9 @@
       "meta": {
         "refs": [
           "https://www.fireeye.com/blog/threat-research/2017/04/cve-2017-0199_useda.html"
+        ],
+        "synonyms": [
+          "BlackOasis"
         ]
       },
       "description": "Though we have not identified the targets, FINSPY is sold by Gamma Group to multiple nation-state clients, and we assess with moderate confidence that it was being used along with the zero-day to carry out cyber espionage.",
@@ -3005,6 +3008,43 @@
       "meta": {
         "refs": [
           "https://cdn.securelist.com/files/2017/08/ShadowPad_technical_description_PDF.pdf"
+        ]
+      }
+    },
+    {
+      "value": "IoT_reaper",
+      "description": "IoT_reaper is fairly large now and is actively expanding. For example, there are multiple C2s we are tracking, the most recently data (October 19) from just one C2 shows the number of unique active bot IP address is more than 10k per day. While at the same time, there are millions of potential vulnerable device IPs being queued into the c2 system waiting to be processed by an automatic loader that injects malicious code to the devices to expand the size of the botnet.",
+      "meta": {
+        "refs": [
+          "http://blog.netlab.360.com/iot_reaper-a-rappid-spreading-new-iot-botnet-en/"
+        ]
+      }
+    },
+    {
+      "value": "FormBook",
+      "description": "FormBook is a data stealer and form grabber that has been advertised in various hacking forums since early 2016.",
+      "meta": {
+        "refs": [
+          "https://www.fireeye.com/blog/threat-research/2017/10/formbook-malware-distribution-campaigns.html",
+          "https://www.arbornetworks.com/blog/asert/formidable-formbook-form-grabber/"
+        ]
+      }
+    },
+    {
+      "value": "Dimnie",
+      "description": "Dimnie, the commonly agreed upon name for the binary dropped by the PowerShell script above, has been around for several years. Palo Alto Networks has observed samples dating back to early 2014 with identical command and control mechanisms. The malware family serves as a downloader and has a modular design encompassing various information stealing functionalities. Each module is injected into the memory of core Windows processes, further complicating analysis. During its lifespan, it appears to have undergone few changes and its stealthy command and control methods combined with a previously Russian focused target base has allowed it to fly under the radar up until this most recent campaign.",
+      "meta": {
+        "refs": [
+          "https://researchcenter.paloaltonetworks.com/2017/03/unit42-dimnie-hiding-plain-sight/"
+        ]
+      }
+    },
+    {
+      "value": "ALMA Communicator",
+      "description": "The ALMA Communicator Trojan is a backdoor Trojan that uses DNS tunneling exclusively to receive commands from the adversary and to exfiltrate data. This Trojan specifically reads in a configuration from the cfg file that was initially created by the Clayslide delivery document. ALMA does not have an internal configuration, so the Trojan does not function without the cfg file created by the delivery document.",
+      "meta": {
+        "refs": [
+          "https://researchcenter.paloaltonetworks.com/2017/11/unit42-oilrig-deploys-alma-communicator-dns-tunneling-trojan/"
         ]
       }
     }
