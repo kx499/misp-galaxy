@@ -3040,6 +3040,24 @@
       }
     },
     {
+      "value": "Silence",
+      "description": "Delivered via a malicious attachment in the form of a 'Windows help . CHM' file which runs once the document has been opened. An embedded JavaScript within this automatically downloads and executes a Visual Basic script which then in turn downloads the a malware dropper from a command and control server. The malware allows attackers to take screen shots, and includes a winexecsvc tool for remote command execution. ",
+      "meta": {
+        "refs": [
+          "https://securelist.com/the-silence/83009/"
+        ]
+      }
+    },
+    {
+      "value": "Reaver",
+      "description": "Unit 42 has discovered a new malware family we’ve named “Reaver” with ties to attackers who use SunOrcal malware. Reaver.v1 has been observed delivering a payload that uses HTTP for network communication, while versions 2 and 3 use a payload that uses raw TCP connections for this communication. the malware collects various information from the victim machine, including  user, IP Address, and computer name. It then proceeds to communicate with the remote server via HTTP GET and POST requests. Data that is sent is compressed and then base64-encoded before being included in the requests. It has functionality to read/modify/delete files, spawn processes, and get drive information. ",
+      "meta": {
+        "refs": [
+          "https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/"
+        ]
+      }
+    },
+    {
       "value": "ALMA Communicator",
       "description": "The ALMA Communicator Trojan is a backdoor Trojan that uses DNS tunneling exclusively to receive commands from the adversary and to exfiltrate data. This Trojan specifically reads in a configuration from the cfg file that was initially created by the Clayslide delivery document. ALMA does not have an internal configuration, so the Trojan does not function without the cfg file created by the delivery document.",
       "meta": {
