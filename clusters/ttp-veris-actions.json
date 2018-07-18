@@ -65,6 +65,10 @@
       "description": "Publishing error (private info to public doc or site); "
     },
     {
+      "value": "Fraud:Account Take-over",
+      "description": "Activity associated with fraudulent account access or control"
+    },
+    {
       "value": "Hacking:Abuse of functionality",
       "description": "Abuse of functionality; "
     },

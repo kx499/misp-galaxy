@@ -221,6 +221,10 @@
       "description": "Documents; "
     },
     {
+      "value": "Social:Domain Squatting",
+      "description": "Any type of domain or typo squatting"
+    },
+    {
       "value": "Social:Email-attachments",
       "description": "Email with attachments "
     },

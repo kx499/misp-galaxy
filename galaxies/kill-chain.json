@@ -1,0 +1,8 @@
+{
+  "description": "Cyber Kill Chain",
+  "uuid": "3864f7da-6bfa-4a16-adc5-969ec05b8148",
+  "version": 1,
+  "type": "kill-chain",
+  "name": "Cyber Kill Chain",
+  "icon": "map"
+}
