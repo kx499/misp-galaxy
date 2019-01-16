@@ -23,6 +23,9 @@
     "source": {
       "type": "string"
     },
+    "category": {
+      "type": "string"
+    },
     "values": {
       "type": "array",
       "uniqueItems": true,
@@ -38,6 +41,28 @@
           },
           "uuid": {
             "type": "string"
+          },
+          "related": {
+            "type": "array",
+            "additionalProperties": false,
+            "items": {
+              "type": "object"
+            },
+            "properties": {
+              "dest-uuid": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "tags": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "meta": {
             "type": "object",
@@ -79,13 +104,6 @@
                 }
               },
               "synonyms": {
-                "type": "array",
-                "uniqueItems": true,
-                "items": {
-                  "type": "string"
-                }
-              },
-              "derivated_from": {
                 "type": "array",
                 "uniqueItems": true,
                 "items": {
@@ -139,6 +157,7 @@
     "uuid",
     "values",
     "authors",
-    "source"
+    "source",
+    "category"
   ]
 }
