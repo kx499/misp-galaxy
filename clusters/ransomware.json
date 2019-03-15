@@ -11005,7 +11005,8 @@
           "Attention!\n\nAll your files, documents, photos, databases and other important files are encrypted and have the extension: .KEYPASS\n\nThe only method of recovering files is to purchase an decrypt software and unique private key.\n\nAfter purchase you will start decrypt software, enter your unique private key and it will decrypt all your data.\n\nOnly we can give you this key and only we can recover your files.\n\nYou need to contact us by e-mail keypass@bitmessage.ch send us your personal ID and wait for further instructions.\n\nFor you to be sure, that we can decrypt your files - you can send us a 1-3 any not very big encrypted files and we will send you back it in a original form FREE.\n\nPrice for decryption $300.\n\nThis price avaliable if you contact us first 72 hours.\n\nE-mail address to contact us:\n\nkeypass@bitmessage.ch\n\n\n\nReserve e-mail address to contact us:\n\nkeypass@india.com\n\n\n\nYour personal id:\n[id]"
         ],
         "refs": [
-          "https://www.bleepingcomputer.com/news/security/new-keypass-ransomware-campaign-underway/"
+          "https://www.bleepingcomputer.com/news/security/new-keypass-ransomware-campaign-underway/",
+          "https://www.kaspersky.com/blog/keypass-ransomware/23447/"
         ],
         "synonyms": [
           "KeyPass"
@@ -11325,7 +11326,8 @@
           "#RECOVERY_FILES#.txt"
         ],
         "refs": [
-          "https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-12th-2018-notpetya-gandcrab-and-more/"
+          "https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-12th-2018-notpetya-gandcrab-and-more/",
+          "https://www.bleepingcomputer.com/news/security/ransomware-pretends-to-be-proton-security-team-securing-data-from-hackers/"
         ]
       },
       "uuid": "f251740b-1594-460a-a378-371f3a2ae92c",
@@ -11569,17 +11571,17 @@
         "refs": [
           "https://twitter.com/struppigel/status/1069905624954269696",
           "https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-december-7th-2018-wechat-ransomware-scammers-and-more/"
-        ],
-        "related": [
-          {
-            "dest-uuid": "c71819a4-f6ce-4265-b0cd-24a98d84321c",
-            "tags": [
-              "estimative-language:likelihood-probability=\"likely\""
-            ],
-            "type": "similar"
-          }
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "c71819a4-f6ce-4265-b0cd-24a98d84321c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d3337bec-fd4e-11e8-a3ad-e799cc59c59c",
       "value": "Dablio Ransomware"
     },
@@ -11730,7 +11732,48 @@
       },
       "uuid": "09fa0e0a-f0b2-46ea-8477-653e627b1c22",
       "value": "BitPaymer"
+    },
+    {
+      "meta": {
+        "extensions": [
+          ".locked"
+        ],
+        "ransomnotes-filenames": [
+          "README-NOW.txt"
+        ],
+        "ransomnotes-refs": [
+          "https://www.bleepstatic.com/images/news/u/1100723/Ransomware/LockerGoga-ransom-note.png"
+        ],
+        "refs": [
+          "https://www.bleepingcomputer.com/news/security/new-lockergoga-ransomware-allegedly-used-in-altran-attack/"
+        ]
+      },
+      "uuid": "1e19dae5-80c3-4358-abcd-2bf0ba4c76fe",
+      "value": "LockerGoga"
+    },
+    {
+      "description": "We have been observing a malvertising campaign via Rig exploit kit delivering a cryptocurrency-mining malware and the GandCrab ransomware since July 25. On August 1, we found Rig’s traffic stream dropping a then-unknown ransomware. Delving into this seemingly new ransomware, we checked its ransom payment page in the Tor network and saw it was called Princess Evolution (detected by Trend Micro as RANSOM_PRINCESSLOCKER.B), and was actually a new version of the Princess Locker ransomware that emerged in 2016. Based on its recent advertisement in underground forums, it appears that its operators are peddling Princess Evolution as a ransomware as a service (RaaS) and are looking for affiliates.\nThe new malvertising campaign we observed since July 25 is notable in that the malvertisements included Coinhive (COINMINER_MALXMR.TIDBF). Even if users aren’t diverted to the exploit kit and infected with the ransomware, the cybercriminals can still earn illicit profit through cryptocurrency mining. Another characteristic of this new campaign is that they hosted their malvertisement page on a free web hosting service and used domain name system canonical name (DNS CNAME) to map their advertisement domain on a malicious webpage on the service.",
+      "meta": {
+        "refs": [
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/ransomware-as-a-service-princess-evolution-looking-for-affiliates/"
+        ]
+      },
+      "uuid": "53da7991-62b7-4fe2-af02-447a0734f41d",
+      "value": "Princess Evolution"
+    },
+    {
+      "description": "A new Ransomware-as-a-Service called Jokeroo is being promoted on underground hacking sites and via Twitter that allows affiliates to allegedly gain access to a fully functional ransomware and payment server.\nAccording to a malware researcher named Damian, the Jokeroo RaaS first started promoting itself as a GandCrab Ransomware RaaS on the underground hacking forum Exploit.in. ",
+      "meta": {
+        "refs": [
+          "https://www.bleepingcomputer.com/news/security/jokeroo-ransomware-as-a-service-offers-multiple-membership-packages/"
+        ],
+        "synonyms": [
+          "Fake GandCrab"
+        ]
+      },
+      "uuid": "8cfa694b-3e6b-410a-828f-037d981870b2",
+      "value": "Jokeroo"
     }
   ],
-  "version": 49
+  "version": 54
 }

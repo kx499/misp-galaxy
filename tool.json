@@ -7220,7 +7220,7 @@
       "value": "NotPetya"
     },
     {
-      "description": "Xbash is a malware family that is targeting Linux and Microsoft Windows servers. We can tie this malware, which we have named Xbash, to the Iron Group, a threat actor group known for previous ransomware attacks.",
+      "description": "Xbash is a malware family that is targeting Linux and Microsoft Windows servers. We can tie this malware, which we have named Xbash, to the Iron Group, a threat actor group known for previous ransomware attacks. Xbash was developed using Python and converted into self-contained Linux ELF executables by abusing the legitimate tool PyInstaller for distribution. Xbash aimed on discovering unprotected services, deleting victim’s MySQL, PostgreSQL and MongoDB databases, and ransom for Bitcoins. Linux based systems are targeted for ransomware and botnet capabilities. The ransomware targets and deletes linux databases and there is no evidence of any functionality that makes recovery even possible by payment the ransom. Where as, windows based systems are targeted for coinmining & self-propagating capabilities. Xbash spreads by attacking weak passwords and unpatched vulnerabilities.",
       "meta": {
         "refs": [
           "https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/"
@@ -7233,7 +7233,8 @@
       "description": "rootkit for the Unified Extensible Firmware Interface (UEFI). Used by APT28. The researchers named the rootkit LoJax, after the malicious samples of the LoJack anti-theft software that were discovered earlier this year.",
       "meta": {
         "refs": [
-          "https://www.bleepingcomputer.com/news/security/apt28-uses-lojax-first-uefi-rootkit-seen-in-the-wild/"
+          "https://www.bleepingcomputer.com/news/security/apt28-uses-lojax-first-uefi-rootkit-seen-in-the-wild/",
+          "https://www.bleepingcomputer.com/news/security/lojax-command-and-control-domains-still-active/"
         ]
       },
       "uuid": "6d53a74e-c8a5-11e8-a123-332e4eaac9bb",
@@ -7265,14 +7266,17 @@
       "value": "FASTCash"
     },
     {
-      "description": "ZEBROCY is a tool used by APT28, which has been observed since late 2015. The communications module used by ZEBROCY transmits using HTTP. The implant has key logging and file exfiltration functionality and utilises a file collection capability that identifies files with particular extensions.",
+      "description": "Zebrocy is a tool used by APT28, which has been observed since late 2015. The communications module used by Zebrocy transmits using HTTP. The implant has key logging and file exfiltration functionality and utilises a file collection capability that identifies files with particular extensions.",
       "meta": {
         "refs": [
           "https://www.ncsc.gov.uk/alerts/indicators-compromise-malware-used-apt28"
+        ],
+        "synonyms": [
+          "Zekapab"
         ]
       },
       "uuid": "8a2ae47a-c7b2-11e8-b223-ab4d8f78f3ef",
-      "value": "ZEBROCY"
+      "value": "Zebrocy"
     },
     {
       "meta": {
@@ -7508,7 +7512,79 @@
       },
       "uuid": "0147c0fd-ed74-4d38-a823-130542d894a3",
       "value": "OSX.BadWord"
+    },
+    {
+      "description": "The initial Trojan horse infection (the fake Flash Player installer) component of OSX/Shlayer leverages shell scripts to download additional malware or adware onto the infected system.\nThe primary goal of OSX/Shlayer is to download and install adware onto an infected Mac.\nAlthough \"adware\" may not sound like a big deal, it can be a lot more harmful than the name implies; be sure to watch our aforementioned interview with Amit Serper to learn more about one particular example of malicious Mac adware.\nAt least one variant of the malware also appears to exhibit an interesting behavior: It checks whether one of several Mac anti-virus products is installed.",
+      "meta": {
+        "refs": [
+          "https://www.intego.com/mac-security-blog/osxshlayer-new-mac-malware-comes-out-of-its-shell/"
+        ]
+      },
+      "uuid": "6e60cb73-0bcc-45bf-b14f-633aa7ffc8b4",
+      "value": "OSX/Shlayer"
+    },
+    {
+      "meta": {
+        "refs": [
+          "https://www.virusbulletin.com/blog/2019/02/malspam-security-products-miss-banking-and-email-phishing-emotet-and-bushaloader/"
+        ]
+      },
+      "uuid": "4473f19e-ad0f-4191-bb7f-a28ef7ae3be3",
+      "value": "Bushaloader"
+    },
+    {
+      "description": "Backdoor",
+      "meta": {
+        "refs": [
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-adds-updated-tools-to-its-arsenal/",
+          "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+        ],
+        "synonyms": [
+          "UPPERCUT"
+        ]
+      },
+      "uuid": "588b97ff-3434-4aa1-a5fd-815e1bb0178b",
+      "value": "ANEL"
+    },
+    {
+      "description": "BabyShark is a relatively new malware. The earliest sample we found from open source repositories and our internal data sets was seen in November 2018. The malware is launched by executing the first stage HTA from a remote location, thus it can be delivered via different file types including PE files as well as malicious documents. It exfiltrates system information to C2 server, maintains persistence on the system, and waits for further instruction from the operator.",
+      "meta": {
+        "refs": [
+          "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks/"
+        ]
+      },
+      "uuid": "78ed653d-2d76-4a99-849e-1509e4573c32",
+      "value": "BabyShark"
+    },
+    {
+      "description": "Hackers are running a new campaign which drops the StealthWorker brute-force malware on Windows and Linux machines that end up being used to brute force other computers in a series of distributed brute force attacks.\nAs unearthed by FortiGuard Labs' Rommel Joven, the StealthWorker Golang-based brute forcer (also known as GoBrut) discovered by Malwarebytes at the end of February is actively being used to target and compromise multiple platforms.\nStealthWorker was previously connected to a number of compromised Magento-powered e-commerce websites on which attackers infiltrated skimmers designed to exfiltrate both payment and personal information.\nAs later discovered, the malware is capable of exploiting a number of vulnerabilities in to infiltrate Magento, phpMyAdmin, and cPanel Content Management Systems (CMSs), as well as brute force its way in if everything else fails.",
+      "meta": {
+        "refs": [
+          "https://www.bleepingcomputer.com/news/security/stealthworker-malware-uses-windows-linux-bots-to-hack-websites/"
+        ]
+      },
+      "uuid": "f0fc5ab9-4973-42b3-a2f6-25ff551b5566",
+      "value": "StealthWorker"
+    },
+    {
+      "description": "The SLUB backdoor is a custom one written in the C++ programming language, statically linking curl library to perform multiple HTTP requests. Other statically-linked libraries are boost (for extracting commands from gist snippets) and JsonCpp (for parsing slack channel communication).",
+      "meta": {
+        "refs": [
+          "https://blog.trendmicro.com/trendlabs-security-intelligence/new-slub-backdoor-uses-github-communicates-via-slack/"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "a4757e11-0837-42c0-958a-7490cff58687",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "bb6492fa-36b5-4f4a-a787-e718e7f9997f",
+      "value": "SLUB Backdoor"
     }
   ],
-  "version": 107
+  "version": 114
 }
