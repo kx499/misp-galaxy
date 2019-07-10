@@ -119,6 +119,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "c82c904f-b3b4-40a2-bf0d-008912953104",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
         }
       ],
       "uuid": "4e104fef-8a2c-4679-b497-6e86d7d47db0",
@@ -674,6 +681,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "c82c904f-b3b4-40a2-bf0d-008912953104",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
         }
       ],
       "uuid": "255a59a7-db2d-44fc-9ca9-5859b65817c3",
@@ -2543,9 +2557,19 @@
         "refs": [
           "https://researchcenter.paloaltonetworks.com/2017/04/unit42-cardinal-rat-active-two-years/",
           "https://www.scmagazine.com/cardinal-rats-unique-downloader-allowed-it-to-avoid-detection-for-years/article/651927/",
-          "https://www.cyber.nj.gov/threat-profiles/trojan-variants/cardinal"
+          "https://www.cyber.nj.gov/threat-profiles/trojan-variants/cardinal",
+          "https://unit42.paloaltonetworks.com/cardinal-rat-sins-again-targets-israeli-fin-tech-firms/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e1ca79eb-5629-4267-bb37-3992c7126ef4",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "cb23f563-a8b9-4427-9884-594e8d3cc836",
       "value": "Cardinal"
     },
@@ -3308,7 +3332,57 @@
       },
       "uuid": "428c8288-6f65-453f-bfa2-4b519d08f8e9",
       "value": "FlawedGrace"
+    },
+    {
+      "description": "H-worm is a VBS (Visual Basic Script) based RAT written by an individual going by the name Houdini. We believe the author is based in Algeria and has connections to njq8, the author of njw0rm [1] and njRAT/LV [2] through means of a shared or common code base. We have seen the H-worm RAT being employed in targeted attacks against the international energy industry; however, we also see it being employed in a wider context as run of the mill attacks through spammed email attachments and malicious links.",
+      "meta": {
+        "refs": [
+          "https://www.fireeye.com/blog/threat-research/2013/09/now-you-see-me-h-worm-by-houdini.html"
+        ]
+      },
+      "uuid": "1b6a067b-50b9-4aa7-a49b-823e94e210fe",
+      "value": "H-worm"
+    },
+    {
+      "description": "The RAT, dubbed Parasite HTTP, is especially notable for the extensive array of techniques it incorporates for sandbox detection, anti-debugging, anti-emulation, and other protections. The malware is also modular in nature, allowing actors to add new capabilities as they become available or download additional modules post infection.",
+      "meta": {
+        "refs": [
+          "https://www.proofpoint.com/us/threat-insight/post/parasite-http-rat-cooks-stew-stealthy-tricks"
+        ]
+      },
+      "uuid": "1b6a067c-50ba-4aa7-a59b-824e94e210fe",
+      "value": "Parasite-HTTP-RAT"
+    },
+    {
+      "description": "Caesar is an HTTP-based RAT that allows you to remotely control devices directly from your browser.",
+      "meta": {
+        "refs": [
+          "https://securityonline.info/caesarrat-http-based-rat/"
+        ]
+      },
+      "uuid": "1b6a066c-50ba-4aa6-a49b-823e94e110fe",
+      "value": "Caesar RAT"
+    },
+    {
+      "description": "During the month of October, Check Point researchers discovered a widespread malware campaign spreading a remote access trojan (dubbed “FlawedAmmy”) that allows attackers to take over victims’ computers and data. The campaign was the latest and most widespread delivering the ‘FlawedAmmyy’ RAT, following a number of campaigns that have spread this malware in recent months. The Trojan allows attackers to gain full access to the machine’s camera and microphone, collect screen grabs, steal credentials and sensitive files, and intrusively monitor the victims’ actions. As a result, FlawedAmmy is the first RAT to enter the Global Threat Index’s top 10 ranking. ",
+      "meta": {
+        "refs": [
+          "https://www.helpnetsecurity.com/2018/11/14/flawedammy-most-wanted-malware-list/"
+        ]
+      },
+      "uuid": "4b9b99f0-9c2d-4db5-aaff-09de88509c04",
+      "value": "FlawedAmmy"
+    },
+    {
+      "description": "The Zscaler ThreatLabZ team came across a new strain of infostealer Trojan called Felipe, which silently installs itself onto a user’s system and connects to a command-and-control (C&C) server to send system information from the compromised system. This malware is compiled for both 32-bit and 64-bit Windows operating systems. Felipe basically steals the victim's debit and credit card information and sends it, along with other personal information, to the remote C&C server. It also sets a date and time to perform other malicious activity upon successful infection of the victim machine.",
+      "meta": {
+        "refs": [
+          "https://www.zscaler.com/blogs/research/felipe-new-infostealer-trojan"
+        ]
+      },
+      "uuid": "0f117f50-9657-11e9-8e2b-83e391e0ce57",
+      "value": "Felipe"
     }
   ],
-  "version": 24
+  "version": 30
 }
